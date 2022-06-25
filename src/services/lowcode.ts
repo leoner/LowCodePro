@@ -89,7 +89,7 @@ export const getPackagesFromLocalStorage = (scenarioName: string) => {
     console.error('scenarioName is required!');
     return;
   }
-  return JSON.parse(window.localStorage.getItem(getLSName(scenarioName, 'packages')) || '{}');
+  return JSON.parse(window.localStorage.getItem(getLSName(scenarioName, 'packages')) || '[]');
 }
 
 export const getPageSchema = async (scenarioName: string = 'index') => {

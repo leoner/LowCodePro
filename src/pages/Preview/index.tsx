@@ -12,7 +12,7 @@ export default () => {
     const scenarioName = 'antd';
     const packages = getPackagesFromLocalStorage(scenarioName);
     const projectSchema = getProjectSchemaFromLocalStorage(scenarioName);
-    const { componentsMap: componentsMapArray, componentsTree } = projectSchema;
+    const { componentsMap: componentsMapArray = [], componentsTree = [] } = projectSchema;
     const componentsMap: any = {};
     componentsMapArray.forEach((component: any) => {
       componentsMap[component.componentName] = component;
