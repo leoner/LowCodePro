@@ -1,3 +1,3 @@
 # README
 
-[AliLowcodeEngine](https://lowcode-engine.cn/)  和 [Umi](https://umijs.org/) 还有 [AntdPro](http://procomponents.ant.design/） 结合一起的例子。
+[AliLowcodeEngine](https://lowcode-engine.cn/) [Umi](https://umijs.org/) [AntdPro](http://procomponents.ant.design) 结合一起的例子。
