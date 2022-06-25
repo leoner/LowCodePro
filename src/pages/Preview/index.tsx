@@ -44,7 +44,7 @@ export default () => {
   }, []);
 
   return (
-    <PageContainer>
+    <PageContainer title="">
       { data?.schema && (<ReactRenderer
         className="lowcode-plugin-sample-preview-content"
         schema={data.schema}

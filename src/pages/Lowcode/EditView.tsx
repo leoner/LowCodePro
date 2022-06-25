@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import { PageContainer } from '@ant-design/pro-components';
-import { common, plugins, config } from '@alilc/lowcode-engine';
+import { common, plugins } from '@alilc/lowcode-engine';
 import './global.scss';
 const preference = new Map();
 
@@ -29,9 +28,9 @@ const EditView: React.FC = () => {
   const [hasPluginInited, setHasPluginInited] = useState(false);
 
   return (
-    <PageContainer ghost>
+    <>
       { hasPluginInited && <Workbench />}
-    </PageContainer>
+    </>
   );
 };
 
