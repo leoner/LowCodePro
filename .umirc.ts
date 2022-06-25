@@ -40,20 +40,19 @@ export default defineConfig({
     'https://g.alicdn.com/platform/c/react15-polyfill/0.0.1/dist/index.js',
     'https://g.alicdn.com/platform/c/lodash/4.6.1/lodash.min.js',
     'https://g.alicdn.com/mylib/moment/2.24.0/min/moment.min.js',
-    'https://g.alicdn.com/code/lib/alifd__next/1.23.24/next.min.js',
+    'https://g.alicdn.com/code/lib/alifd__next/1.25.44/next.min.js',
     {
       crossorigin: "anonymous",
       src: 'https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.0.10/dist/js/engine-core.js',
     },{
       crossorigin: "anonymous",
       src: 'https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.3/dist/js/engine-ext.js',
-    }
+    },
   ],
   externals: {
     "react": "var window.React",
     "react-dom": "var window.ReactDOM",
     "prop-types": "var window.PropTypes",
-    "@alifd/next": "var window.Next",
     "@alilc/lowcode-engine": "var window.AliLowCodeEngine",
     "@alilc/lowcode-editor-core": "var window.AliLowCodeEngine.common.editorCabin",
     "@alilc/lowcode-editor-skeleton": "var window.AliLowCodeEngine.common.skeletonCabin",
